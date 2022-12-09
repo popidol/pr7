@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>438</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="7" column="2">
+     <widget class="QLineEdit" name="lineEdit_6"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>фамилия</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>повторить пароль</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>имя</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>85</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="9" column="1">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>176</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>логин</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>пароль</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>Регистрация</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLineEdit" name="lineEdit_4"/>
+    </item>
+    <item row="0" column="1">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>177</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="8" column="1" colspan="2">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>регистрация</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLineEdit" name="lineEdit_5"/>
+    </item>
+    <item row="5" column="3">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>85</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>статус</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="lineEdit_1"/>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLineEdit" name="lineEdit_2"/>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLineEdit" name="lineEdit_3"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
